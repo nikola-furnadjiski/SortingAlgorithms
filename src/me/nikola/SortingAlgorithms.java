@@ -10,9 +10,8 @@ public class SortingAlgorithms {
     public static void main(String[] args) {
         int array[] = {12, 11, 13, 5, 6};
 
-        //maxEntrySort(array);
-        int a = (8) / 3;
-        System.out.println(a);
+        MergeSort.mergeSort(array, 0, array.length-1);
+        print(array);
     }
 
     /**

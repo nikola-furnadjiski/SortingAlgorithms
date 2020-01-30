@@ -10,7 +10,7 @@ public class SortingAlgorithms {
     public static void main(String[] args) {
         int array[] = {12, 11, 13, 5, 6};
 
-        MergeSort.mergeSort(array, 0, array.length-1);
+        QuickSort.sort(array, 0, array.length-1);
         print(array);
     }
 

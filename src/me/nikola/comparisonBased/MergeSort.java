@@ -1,4 +1,4 @@
-package me.nikola;
+package me.nikola.comparisonBased;
 
 public class MergeSort {
     public static void merge(int[] array, int left, int middle, int right) {

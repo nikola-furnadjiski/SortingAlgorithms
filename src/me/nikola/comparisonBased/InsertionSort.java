@@ -1,4 +1,6 @@
-package me.nikola;
+package me.nikola.comparisonBased;
+
+import me.nikola.SortingAlgorithms;
 
 /**
  * Insertion sort works in the way like we sort playing cards in our hands We iterate over the array pick the next

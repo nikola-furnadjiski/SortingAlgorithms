@@ -1,5 +1,8 @@
 package me.nikola;
 
+import me.nikola.comparisonBased.QuickSort;
+import me.nikola.nonComparisonBased.CountingSort;
+
 public class SortingAlgorithms {
 
     /**
@@ -8,9 +11,11 @@ public class SortingAlgorithms {
      * @param args
      */
     public static void main(String[] args) {
-        int array[] = {12, 11, 13, 5, 6};
+        //int array[] = {12, 11, 13, 5, 6};
+        //QuickSort.sort(array, 0, array.length-1);
 
-        QuickSort.sort(array, 0, array.length-1);
+        int array[] = {1,4,1,2,7,5,2};
+        CountingSort.sort(array);
         print(array);
     }
 

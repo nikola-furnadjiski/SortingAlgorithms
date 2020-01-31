@@ -1,4 +1,6 @@
-package me.nikola;
+package me.nikola.comparisonBased;
+
+import me.nikola.SortingAlgorithms;
 
 /**
  * Sorting algorithm that takes the first element, compares it with all next elements [2..n] and puts min element on

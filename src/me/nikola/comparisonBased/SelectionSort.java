@@ -1,4 +1,6 @@
-package me.nikola;
+package me.nikola.comparisonBased;
+
+import me.nikola.SortingAlgorithms;
 
 /**
  * Sorting algorithm that find the min element in the range [2..n] of unsorted subarray and swaps it with the first

@@ -1,4 +1,6 @@
-package me.nikola;
+package me.nikola.comparisonBased;
+
+import me.nikola.SortingAlgorithms;
 
 /**
  * Bubble Sort is one of the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if

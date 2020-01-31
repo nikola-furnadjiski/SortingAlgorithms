@@ -1,4 +1,4 @@
-package me.nikola;
+package me.nikola.comparisonBased;
 
 /**
  * Class that provides implementation of QuickSort Algorithm

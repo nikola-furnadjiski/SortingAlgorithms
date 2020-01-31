@@ -1,10 +1,11 @@
 package me.nikola.nonComparisonBased;
 
 /**
- * Counting sort is a sorting algorithm that is not based on comaprison between elements in an array. It's complexity is
+ * Counting sort is a sorting algorithm that is not based on comparison between elements in an array. It's complexity is
  * O(n+k)=O(n) which is linear complexity, but a certain conditions have to be fulfilled for using it. All elements (el.
- * values) must be in a certain range [0...k] and elements can (should) repeat more times but this range should not be
- * too big
+ * values) must be in a certain range [0...k] they have to be natural numbers (there is also variation of counting sort
+ * accepting integers (positive and negative numbers)) and elements can (should) repeat more times but this range
+ * should not be too big
  * <p>
  * How it works: we create an auxiliary array that contains element's count on aux. array's index eg: array to be
  *      sorted=[1, 4, 1, 2, 7, 5, 2];
